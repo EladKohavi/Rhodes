@@ -1,6 +1,4 @@
-# -*- mode: yaml -*-
-manifest:
-  version: 1.0
+version: 1.0
 
 automations:
   automation1:
@@ -17,3 +15,115 @@ automations:
       - action: add-label@v1
         args:
           label: '2'
+  automation3:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '3'
+  automation4:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '4'
+  automation5:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '5'
+  automation6:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '6'
+  automation7:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '7'
+  automation8:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '8'
+  automation9:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '9'
+  automation10:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '10'
+  automation11:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '11'
+  automation12:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '12'
+  automation13:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '13'
+  automation14:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '14'
+  automation15:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '15'
+  automation16:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '16'
+  automation17:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '17'
+  automation18:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '18'
