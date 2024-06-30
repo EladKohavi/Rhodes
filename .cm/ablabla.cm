@@ -1,0 +1,19 @@
+# -*- mode: yaml -*-
+manifest:
+  version: 1.0
+
+automations:
+  automation1:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '1'
+  automation2:
+    if:
+      - true
+    run: 
+      - action: add-label@v1
+        args:
+          label: '2'
